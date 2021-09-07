@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            text-align:center;
+            border: 19px solid red;
+        }
+       li{
+            display: inline;
+            color:white;
+        }
+        header{
+            background: darkblue;
+            height:70px;
+
+        }
+        .container{
+            background-color:aqua;
+            height:50vh;
+            width:50vw;
+            margin:auto;
+        }
+        .box{
+            height: 200px;
+            width:200px;
+            background-color:darkkhaki;
+            position: relative;
+            top:50px;
+            left:0px;
+        }
+        .box2{
+            height: 200px;
+            width:200px;
+            background-color:darkseagreen;
+            /*position: relative;*/
+           /* position:absolute;*/
+            top:-149px;
+            left:314px;
+        }.box3{
+            height: 200px;
+            width:200px;
+            background-color:red;
+            position: relative;
+            top:-349px;
+            left:628px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad reprehenderit labore porro, debitis laboriosam dicta officiis impedit exercitationem a, veniam quas hic molestias provident saepe?</p>
+        <div class="box"> This is Box.</div>
+        <div class="box2">This is box2</div>
+        <div class="box3">This is box3</div>
+    </div>
+    
+</body>
+</html>
