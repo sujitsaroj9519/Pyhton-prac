@@ -8,5 +8,3 @@ print("The original string is : ", str)
 print("The reverse string is :", reverse_string(str))
 
 
-
-
